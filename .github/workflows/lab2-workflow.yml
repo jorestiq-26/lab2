@@ -7,6 +7,7 @@ on:
         description: "Run Specific Job"
         type: boolean
         required: false
+        default: false
       custom_message:
         description: "Enter a custom message"
         type: string
