@@ -26,3 +26,4 @@ jobs:
       - name: Printing run_job boolean value
         if: ${{ inputs.run_job }}
         run: echo ${{ inputs.run_job }}
+        
